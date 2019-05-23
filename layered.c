@@ -2,6 +2,7 @@
 #include "saint-venant.h"
 
 scalar lamda[];
+scalar etta[];
 
 int main() {
   X0 = 0.;
