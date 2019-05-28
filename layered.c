@@ -16,7 +16,7 @@ int main() {
   X0 = 0.;
   L0 = 21.;
   G = 9.81;
-  N = 512; 
+  N = 128; 
 
   /**
   The viscosity is set to $\nu = 0.01 m^2/s$ and the bottom friction
@@ -28,8 +28,8 @@ int main() {
   /**
   We vary the number of layers. */
 
-  nl = 2;  run();
-  nl = 5;  run();
+//  nl = 2;  run();
+ // nnl = 5;  run();
   nl = 15; run();
 }
 
